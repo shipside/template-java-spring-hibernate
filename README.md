@@ -11,7 +11,8 @@ This is a template for a web application that uses Spring MVC and Hibernate. The
 
 ### Eclipse
 Create project file and open in Eclipse, run it in Tomcat server
-    cp .project.basic .project
+    
+    $cp .project.basic .project
     
     
 ### Maven
