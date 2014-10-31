@@ -8,11 +8,21 @@ This is a template for a web application that uses Spring MVC and Hibernate. The
 
 ## Running the application locally
 
+
+### Eclipse
+Create project file and open in Eclipse, run it in Tomcat server
+    cp .project.basic .project
+    
+    
+### Maven
 First build with:
 
     $mvn clean install
 
-Then run it with:
+Then run it with: (uncommit <artifactId>webapp-runner</artifactId> in pom.xml)
 
     $java -jar target/dependency/webapp-runner.jar target/*.war
+    
+    
+    
 
